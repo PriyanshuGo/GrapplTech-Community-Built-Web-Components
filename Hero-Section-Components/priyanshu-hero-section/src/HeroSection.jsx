@@ -27,7 +27,7 @@ const HeroSection = () => {
     opacity: 1,
     transform: 'translateY(0)',
     from: { opacity: 0, transform: 'translateY(20px)' },
-    config: { duration: 2000 },
+    config: { duration: 0 },
   });
 
   // Effect to handle menu visibility on window resize
